@@ -7,3 +7,21 @@
 user_input_str = input("Please enter the number: ")
 user_value_int = int(user_input_str)
 total_int = 0
+
+
+if user_value_int >= 0: 
+    
+    total_int = user_value_int
+
+    while user_value_int >= 0:
+        
+        user_value_int = int(input("Please enter the number: "))
+        
+        if user_value_int >= 0:
+
+            if user_value_int >=  total_int:
+
+                total_int = user_value_int         
+           
+
+print("Mmaximum positive integer is: ", total_int)
